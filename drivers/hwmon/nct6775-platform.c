@@ -1514,6 +1514,7 @@ static const char * const asus_wmi_boards[] = {
 	"Pro B550M-C",
 	"Pro WS X570-ACE",
 	"PRIME B360-PLUS",
+	"PRIME B450-PLUS",
 	"PRIME B460-PLUS",
 	"PRIME B550-PLUS",
 	"PRIME B550M-A",
@@ -1524,6 +1525,7 @@ static const char * const asus_wmi_boards[] = {
 	"ROG CROSSHAIR VIII DARK HERO",
 	"ROG CROSSHAIR VIII FORMULA",
 	"ROG CROSSHAIR VIII HERO",
+	"ROG CROSSHAIR VIII HERO (WI-FI)",
 	"ROG CROSSHAIR VIII IMPACT",
 	"ROG STRIX B550-A GAMING",
 	"ROG STRIX B550-E GAMING",
@@ -1547,8 +1549,11 @@ static const char * const asus_wmi_boards[] = {
 	"ROG STRIX Z490-G GAMING (WI-FI)",
 	"ROG STRIX Z490-H GAMING",
 	"ROG STRIX Z490-I GAMING",
+	"TUF GAMING B550M-E",
+	"TUF GAMING B550M-E (WI-FI)",
 	"TUF GAMING B550M-PLUS",
 	"TUF GAMING B550M-PLUS (WI-FI)",
+	"TUF GAMING B550M-PLUS WIFI II",
 	"TUF GAMING B550-PLUS",
 	"TUF GAMING B550-PLUS WIFI II",
 	"TUF GAMING B550-PRO",
@@ -1560,6 +1565,7 @@ static const char * const asus_wmi_boards[] = {
 };
 
 static const char * const asus_acpi_boards[] = {
+	"ROG STRIX B660-I GAMING WIFI",
 	"ROG STRIX X670E-I GAMING WIFI",
 };
 /*
@@ -1662,6 +1668,7 @@ static const struct dmi_system_id asus_wmi_info_table[] = {
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME X370-PRO", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME X470-PRO", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME X399-A", &acpi_board_SBRG_MUTEX),
+	DMI_MATCH_ASUS_WMI_BOARD("PRIME B450-PLUS", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME B450M-GAMING", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME Z270-A", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME Z370-A", &acpi_board_SBRG_MUTEX),
